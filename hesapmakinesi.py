@@ -10,12 +10,10 @@ entrybox.pack(pady=50)
 frame1 = tk.Frame(root) 
 frame1.pack(fill='both', expand=True,padx=0,pady=0,ipady=0)
 
-# Kolonları esnet
 frame1.columnconfigure(0, weight=1)
 frame1.columnconfigure(1, weight=1)
 frame1.columnconfigure(2, weight=1)
 
-# Satırları da esnet (önemli!)
 for i in range(3):
     frame1.rowconfigure(i, weight=1)
 
