@@ -3,6 +3,8 @@ import tkinter as tk
 root = tk.Tk()
 root.title("Hesap Makinesi 1")
 
+Label = tk.Label(root,text = "Not : İşlemleri Butonla Yapın",font=("Arial",24),justify="left")
+Label.pack()
 
 entrybox = tk.Entry(root,width=50,font=('Arial',48),justify="center") 
 entrybox.pack(pady=50) 
